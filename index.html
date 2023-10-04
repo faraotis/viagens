@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto de Faraotis</title>
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="arquivos/style.css">
+    <link rel="stylesheet" href="arquivos/mediaquery420.css">
+    <link rel="stylesheet" href="arquivos/mediaquery768.css">
+    <link rel="stylesheet" href="arquivos/mediaquery1366.css">
+</head>
+<body>
+    <header class="container">
+        <div class="container">
+            <img src="imagens/pino-de-localizacao.png" alt="local">
+            <p>Logo</p>
+        </div>
+        <div>
+            <img src="imagens/lupa.png" alt="lupa">
+        </div>
+    </header>
+    <main>
+        <section id="section-form">
+            <div class="container" id="div-pre-form">
+                <div>Flight</div>
+                <div>Hotel</div>
+                <div>Rental</div>
+            </div>
+            <form action="arquivos/cadastro.php" method="post" id="form1">
+                <h1>
+                    Travel the world with us
+                </h1>
+                <div id="container-form">
+                    <div id="container-form-one-div">
+                        <label for="ifrom">From</label>
+                        <br>
+                        <input type="text" name="from" id="ifrom" placeholder="Departing from" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="ito">To</label>
+                        <br>
+                        <input type="text" name="to" id="ito" placeholder="Arriving at" required>
+                    </div>
+                </div>
+                <br>
+                <input type="submit" value="Search and find dates" id="input-submit">
+            </form>
+        </section>
+        <section id="section-imagens-um">
+            <h1>
+                Good Offers Right Now
+            </h1>
+            <p>
+                Up to <strong>50%</strong> discount.
+            </p>
+            <div class="container" id="section-imagens-um-fotos"> 
+                <div id="section-imagens-um-fotos-primeira-div">
+                    <div id="img-legenda">
+                        <img src="imagens/cinqueterre.jpg" alt="cinqueterre">
+                        <p>Cinqueterre</p>
+                    </div>
+                </div>
+                <div class="container" id="section-imagens-um-fotos-segunda-div">
+                    <div id="section-imagens-um-fotos-child">
+                        <div id="img-legenda">
+                            <img src="imagens/newyork.jpg" alt="newyork" id="newyork-pisa-margin">
+                            <p>New York</p>
+                        </div>
+                        <div id="img-legenda">
+                            <img src="imagens/sanfran.jpg" alt="sanfrancisco" id="sanfran-paris-margin">
+                            <p id="sanfran-paris">San Francisco</p>
+                        </div>
+                    </div>
+                    <div id="section-imagens-um-fotos-child">
+                        <div id="img-legenda">
+                            <img src="imagens/pisa.jpg" alt="pisa" id="newyork-pisa-margin">
+                            <p>Pisa</p>
+                        </div>
+                        <div id="img-legenda">
+                            <img src="imagens/paris.jpg" alt="paris" id="sanfran-paris-margin">
+                            <p id="sanfran-paris">Paris</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section-imagens-dois">
+            <h1>
+                Explore Nature
+            </h1>
+            <p>
+                Travel with us and see nature at its finest.
+            </p>
+            <div>
+                <div>
+                    <img src="imagens/ocean.jpg" alt="ocean">
+                    <h2>
+                        West Coast, Norway
+                    </h2>
+                    <p id="p-roundtrip-oneway">Roundtrip from $79</p>
+                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                    <p id="buy-tickets">Buy Tickets</p>
+                </div>
+                <div>
+                    <img src="imagens/mountains.jpg" alt="mountains">
+                    <h2>
+                        Mountains, Austria
+                    </h2>
+                    <p id="p-roundtrip-oneway">One-way from $39</p>
+                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                    <p id="buy-tickets">Buy Tickets</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-form-2">
+            <h1>
+                Get the best offers first!
+            </h1>
+            <p>
+                Join our newsleter.
+            </p>
+            <form action="arquivos/cadastro.php" method="post">
+                <label for="iemail">E-mail</label>
+                <br>
+                <input type="email" name="email" id="iemail" placeholder="Your Email address" required>
+                <br>
+                <input type="submit" value="Subscribe" id="input-subscribe">
+            </form>
+        </section>
+
+        <section id="contact">
+            <h1>
+                Contact
+            </h1>
+            <p>
+                Let us book your next trip!
+            </p>
+
+            <ul>
+                <li>Chicago, US</li>
+                <li>Phone: +00 151515</li>
+                <li>Email: mail@mail.com</li>
+            </ul>
+            <form action="arquivos/cadastro.php" method="post">
+                <input type="text" name="t-name" id="" placeholder="Name" class="contact-input" required>
+                <br>
+                <input type="email" name="t-email" id="" placeholder="Email" class="contact-input" required>
+                <br>
+                <input type="text" name="t-message" id="" placeholder="Message" class="contact-input" required>
+                <br>
+                <input type="submit" value="SEND MESSAGE" id="input-send-message">
+            </form>
+        </section>
+        <footer>
+            <h2>
+                Find Us On
+            </h2>
+            <div>
+                <a href="#"><img src="imagens/icone-facebook.png" alt="icone-facebook"></a>
+                <a href="#"><img src="imagens/icone-instagram.webp" alt="icone-instagram"></a>
+                <a href="#"><img src="imagens/icone-linkedin.png" alt="icone-linkedin"></a>
+            </div>
+            <p>Powered by <a href="#">w3.css</a></p>
+        </footer>
+    </main>
+</body>
+</html>

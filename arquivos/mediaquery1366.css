@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1366px) {
+
+    /*PRIMEIRO-FORMULARIO*/
+    #section-form {
+        background: black url(../imagens/london.jpg) top center no-repeat fixed;
+        background-size: cover;
+        max-width: 100vw;
+        margin: 0px auto 60px auto;
+        padding: 150px 0px;
+    }
+
+    #section-form form {
+        background-color: white;
+    }
+
+    #div-pre-form {
+        max-width: 900px;
+        margin: auto;
+    }
+
+    form {
+        max-width: 900px;
+        margin: auto;
+        padding: 40px 20px;
+    }
+
+    #container-form {
+        display: flex;
+    }
+
+    #container-form-one-div {
+        margin-right: 10px;
+    }
+
+    form input {
+        width: 425px;
+        padding: 12px;
+    }
+
+    /*SECTIONS-IMAGENS*/
+    #img-legenda p {
+        top: 370px;
+    }
+
+    #section-imagens-um-fotos-segunda-div #img-legenda p {
+        top: 160px;
+    }
+
+    p#sanfran-paris {
+        padding-left: 10px;
+    }
+
+    #section-imagens-um, #section-imagens-dois, #contact {
+        max-width: 1100px;
+        margin: 10px auto;
+    }
+
+    #section-imagens-um-fotos {
+        display: flex;
+        flex-direction: row;
+        width: 1080px;
+        gap: 20px 40px;
+    }
+
+    #section-imagens-um-fotos > div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #section-imagens-um-fotos-primeira-div > div > img {
+        width: 105%;
+    }
+
+    #section-imagens-um-fotos-segunda-div > div > div > img {
+        height: 97%;
+    }
+
+    #sanfran-paris-margin {
+        margin-left: 15px;
+    }
+
+    #section-imagens-um-fotos > div > div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #section-imagens-dois > div {
+        display: flex;
+        gap: 15px;
+    }
+
+    /*SEGUNDO FORMULARIO*/
+    #section-form-2 {
+        width: 1100px;
+    }
+
+    #section-form-2 > form {
+        width: 1100px;
+        margin-left: -20px;
+    }
+
+    #section-form-2 #iemail {
+        width: 1070px;
+    }
+
+    #input-subscribe {
+        width: 100px;
+    }
+
+    #contact input {
+        width: 1100px;
+        margin-left: -120px;
+    }
+
+    #contact > form > #input-send-message {
+        width: 140px;
+    }
+}

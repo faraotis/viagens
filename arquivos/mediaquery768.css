@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 1366px) {
+
+    html, body {
+        width: 97vw;
+    }
+
+    header {
+        padding: 0px 20vw;
+    }
+
+    /*PRIMEIRO FORMULARIO*/
+    #section-form {
+        background: black url(../imagens/london.jpg) top center no-repeat fixed;
+        background-size: cover;
+        max-width: 100vw;
+        margin: 0px auto 60px auto;
+        padding: 60px 0px;
+    }
+
+    #section-form form {
+        background-color: white;
+    }
+
+    #div-pre-form {
+        max-width: 600px;
+        margin: auto;
+    }
+
+    #form1 {
+        max-width: 600px;
+        margin: auto;
+        padding: 40px 20px;
+    }
+
+    #container-form {
+        display: flex;
+    }
+
+    #container-form-one-div {
+        margin-right: 10px;
+    }
+
+    form input {
+        width: 280px;
+        padding: 12px;
+    }
+
+    /*SECTIONS-IMAGENS*/
+    #img-legenda p {
+        top: 215px;
+    }
+
+    p#sanfran-paris {
+        padding-left: 10px;
+    }
+
+    #section-imagens-um-fotos-segunda-div #img-legenda p {
+        top: 80px;
+    }
+
+    #section-imagens-um, #section-imagens-dois, #contact {
+        max-width: 700px;
+        margin: 10px auto;
+    }
+
+    #section-imagens-um-fotos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 685px;
+        gap: 35px;
+    }
+
+    #section-imagens-um-fotos > div > div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #section-imagens-um-fotos-primeira-div > div > img {
+        width: 106%;
+    }
+
+    #section-imagens-um-fotos-segunda-div {
+        margin-right: 0px -5px 0px 10px;
+    }
+
+    #section-imagens-um-fotos-segunda-div > div > div > img {
+        height: 95%;
+    }
+
+    #section-imagens-um-fotos-segunda-div > div {
+        gap: 5px;
+    }
+
+    #newyork-pisa-margin {
+        margin-right: 12px
+    }
+
+    #sanfran-paris-margin {
+        margin-left: 12px;
+    }
+
+    #section-imagens-dois > div {
+        display: flex;
+        gap: 15px;
+    }
+
+    /*SEGUNDO FORMULARIO*/
+    #section-form-2, #section-form-2 > form {
+        width: 700px;
+    }
+
+    #section-form-2 #iemail {
+        width: 96%;
+    }
+
+    #input-subscribe {
+        width: 100px;
+    }
+
+    #contact input {
+        width: 700px;
+    }
+
+    #contact > form > #input-send-message {
+        width: 140px;
+    }
+}
