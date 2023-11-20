@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aviso!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <style>
         body {
             height: 97vh;
@@ -13,6 +14,7 @@
             text-align: center;
             position: relative;
         }
+
         div {
             position: absolute;
             transform: translate(-50%, -50%);
@@ -20,14 +22,29 @@
             top: 50%;
             border: 2px solid black;
             width: 320px;
-            
+            padding: 20px 0px;
         }
+
         h1 {
             font-size: 2em;
             color: red;
         }
+
         p {
             font-size: 1.1em;
+        }
+
+        a {
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            text-decoration: none;
+            color: white;
+            background-color: gray;
+            padding: 5px 10px;
+        }
+        
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -36,6 +53,7 @@
         <h1>AVISO!</h1>
         <p>Essa página web <strong>está em desenvolvimento</strong>. Nos visite mais tarde, estaremos disponiveis em breve.</p>
         <p>Obrigado pela compreensão!</p>
+        <a href="../index.html">Voltar</a>
     </div>
 </body>
 </html>
