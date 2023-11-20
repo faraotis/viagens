@@ -55,4 +55,10 @@
     .contact-input {
         width: 400px;
     }
+
+    /*TERCEIRO FORMULARIO*/
+
+    #input-send-message {
+        margin-left: 0px;
+    }
 }

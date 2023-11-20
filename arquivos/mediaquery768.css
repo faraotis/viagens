@@ -127,4 +127,10 @@
     #contact > form > #input-send-message {
         width: 140px;
     }
+
+    /*TERCEIRO FORMULARIO*/
+
+    #input-send-message {
+        margin-left: 0px;
+    }
 }

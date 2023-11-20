@@ -70,13 +70,38 @@ form input {
     border: 1px solid lightgray;
 }
 
-form #input-submit {
+.input-submit-form1 {
+    background-color: #616161;
+}
+
+form a {
+    display: block;
+    font-size: 0.9em;
+    text-decoration: none;
+    padding: 9px;
     min-width: 170px;
     max-width: 200px;
     margin-top: 10px;
-    background-color: #616161;
+    text-align: center;
     color: white;
     border: none;
+}
+
+#form-flight {
+    display: block;
+}
+#form-hotel {
+    display: none;
+}
+#form-rental {
+    display: none;
+}
+
+#inputFalseRental {
+    border: 1px solid lightgray;
+    height: 40px;
+    width: 300px;
+    padding: 9px;
 }
 
 /*SECTIONS-IMAGENS*/
@@ -156,11 +181,7 @@ section h1, section h2 {
     width: 290px;
 }
 
-form input#input-subscribe {
-    margin-top: 10px;
-    min-width: 170px;
-    max-width: 200px;
-    color: white;
+form a#input-subscribe {
     background-color: #F38980;
 }
 
@@ -182,11 +203,8 @@ form input#input-subscribe {
 }
 
 #input-send-message {
-    min-width: 170px;
-    max-width: 200px;
     background-color: black;
-    color: white;
-    border: 1px solid #525252;
+    margin-left: -120px;
 }
 
 /*RODAPE*/

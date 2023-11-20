@@ -23,30 +23,83 @@
     <main>
         <section id="section-form">
             <div class="container" id="div-pre-form">
-                <div>Flight</div>
-                <div>Hotel</div>
-                <div>Rental</div>
+                <div onclick="ClickFlight()" id="div-flight">Flight</div>
+                <div onclick="ClickHotel()" id="div-hotel">Hotel</div>
+                <div onclick="ClickRental()" id="div-rental">Rental</div>
             </div>
-            <form action="arquivos/cadastro.php" method="post" id="form1">
-                <h1>
-                    Travel the world with us
-                </h1>
-                <div id="container-form">
-                    <div id="container-form-one-div">
-                        <label for="ifrom">From</label>
+            <!--Flight-->
+            <div id="form-flight">
+                <form method="post" id="form1">
+                    <h1>
+                        Travel the world with us
+                    </h1>
+                    <div id="container-form">
+                        <div id="container-form-one-div">
+                            <label for="ifrom">From</label>
+                            <br>
+                            <input type="text" name="from" id="ifrom" placeholder="Departing from" required>
+                        </div>
                         <br>
-                        <input type="text" name="from" id="ifrom" placeholder="Departing from" required>
+                        <div>
+                            <label for="ito">To</label>
+                            <br>
+                            <input type="text" name="to" id="ito" placeholder="Arriving at" required>
+                        </div>
                     </div>
                     <br>
-                    <div>
-                        <label for="ito">To</label>
+                    <!-- <input type="submit" value="Search and find dates" id="input-submit"> -->
+                    <a class="input-submit-form1" href="arquivos/cadastro.html">Search and find dates</a>
+                </form>
+            </div>
+            <!--Hotel-->
+            <div id="form-hotel">
+                <form method="post" id="form1">
+                    <h1>
+                        Hotel closest to you
+                    </h1>
+                    <div id="container-form">
+                        <div id="container-form-one-div">
+                            <label for="ifrom">State</label>
+                            <br>
+                            <input type="text" name="from" id="ifrom" placeholder="Select a state" required>
+                        </div>
                         <br>
-                        <input type="text" name="to" id="ito" placeholder="Arriving at" required>
+                        <div>
+                            <label for="ito">City</label>
+                            <br>
+                            <input type="text" name="to" id="ito" placeholder="Select a city" required>
+                        </div>
                     </div>
-                </div>
-                <br>
-                <input type="submit" value="Search and find dates" id="input-submit">
-            </form>
+                    <br>
+                    <!-- <input type="submit" value="Search for the nearest hotel" id="input-submit"> -->
+                    <a class="input-submit-form1" href="arquivos/cadastro.html">Search for the nearest hotel</a>
+                </form>
+            </div>
+            <!--Rental-->
+            <div id="form-rental">
+                <form method="post" id="form1">
+                    <h1>
+                        Calculate rental value
+                    </h1>
+                    <div id="container-form">
+                        <div id="container-form-one-div">
+                            <label for="ifrom">Days at the hotel</label>
+                            <br>
+                            <input type="number" name="from" id="ifrom" class="num" placeholder="type here" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="ito">Amount to pay</label>
+                            <br>
+                            <div id="inputFalseRental"></div>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- <input type="button" value="Calculate the amount to pay" id="input-submit" onclick="Calcular()"> -->
+                    <a class="input-submit-form1" href="arquivos/cadastro.html">Calculate the amount to pay</a>
+                </form>
+            </div>
+            <!---->
         </section>
         <section id="section-imagens-um">
             <h1>
@@ -122,12 +175,13 @@
             <p>
                 Join our newsleter.
             </p>
-            <form action="arquivos/cadastro.php" method="post">
+            <form method="post">
                 <label for="iemail">E-mail</label>
                 <br>
                 <input type="email" name="email" id="iemail" placeholder="Your Email address" required>
                 <br>
-                <input type="submit" value="Subscribe" id="input-subscribe">
+                <!-- <input type="submit" value="Subscribe" id="input-subscribe"> -->
+                <a id="input-subscribe" href="arquivos/cadastro.html">Subscribe</a>
             </form>
         </section>
 
@@ -151,7 +205,8 @@
                 <br>
                 <input type="text" name="t-message" id="" placeholder="Message" class="contact-input" required>
                 <br>
-                <input type="submit" value="SEND MESSAGE" id="input-send-message">
+                <!-- <input type="submit" value="SEND MESSAGE" id="input-send-message"> -->
+                <a id="input-send-message" href="arquivos/cadastro.html">SEND MESSAGE</a>
             </form>
         </section>
         <footer>
@@ -166,5 +221,6 @@
             <p>Powered by <a href="#">w3.css</a></p>
         </footer>
     </main>
+    <script src="arquivos/script.js"></script>
 </body>
 </html>
